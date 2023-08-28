@@ -7,12 +7,12 @@ export default {
     name: 'LifeCycle',
     data() {
         return {
-            nome: 'Ainda não sei'
+            nome: 'Lucas'
         }
     },
     created() {
         setTimeout(() => {
-            this.nome = 'Lucas'
+            this.nome = 'Ferreira'
         }, 1000);
     },
     mounted() {

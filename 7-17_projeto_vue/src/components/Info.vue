@@ -30,10 +30,12 @@ export default {
     components: {
         Picture
     },
+    props: {
+        email: String,
+        esta_trabalhando: Boolean
+    },
     data() {
         return {
-            esta_trabalhando: true,
-            email: 'lucas@mail.com',
             mostrar_email: false,
             meu_link: 'https://github.com/LukasNog18',
             texto_botao: 'Mostrar email',
